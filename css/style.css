@@ -80,9 +80,13 @@ ul.hero2__items {
     display: flex;
     list-style: none;
     margin-bottom: 53px;
-    justify-content: flex-end;
-    gap: 10px;
     margin-right: 50px;
+    justify-content: space-between;
+    gap: 10px;
+    width: 50%;
+    float: right;
+	
+    
 }
 
 .hero2_item a {
@@ -192,6 +196,9 @@ ul.hero2__items {
 
 #left, #right, .bullit { /* чтобы видно было, что стрелки и буллеты кликабельны */
 	cursor:pointer;
+}
+#slider{
+    clear:both;
 }
 
 
