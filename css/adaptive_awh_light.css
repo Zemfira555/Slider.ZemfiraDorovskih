@@ -55,7 +55,6 @@
 		margin-bottom: 33px;
 		margin-right: 0;
 	}
-
 	.footer {
 		max-height: fit-content;
 		padding: 1rem 0;
@@ -88,6 +87,8 @@
 	}
 	.street {padding: 3rem 0 0 0;}
 	.map-img {margin-bottom:0;}
+	.main .heroes .conteiner,.footer .conteiner {margin: 0 1rem;} /* боковые отступы для контента */
+	
 	.hero2 { /* верхний отступ до контента */
 		padding-top: 30px;
 	}
@@ -95,8 +96,6 @@
 		margin-bottom: 33px;
 		margin-right: 0;
 	}
-
-	.main .heroes .conteiner,.footer .conteiner {margin: 0 1rem;} /* боковые отступы для контента */
 	.hero1 {
 		height: fit-content;
 		padding: 5rem 0;
@@ -234,20 +233,23 @@
 		font-size: 1.6rem;
 		display: flex;
      	justify-content: center;
+
 	}
 	.hero2 {
 		padding: 2rem 0 23rem;
 	}
+
 	ul.hero2__items { /* навигация слайдера */
 		width: 100%;
 		float: none;
 	}
+
 	.hero2__title3 {
 		font-size: 1.2rem;
 	}
 	.hero2__wrapper {display: block;} /* меняем тип отображения блока с flex на block и перемещаем блок с фото. в потоке html он у нас остаётся на месте, а в мобильном отображении перемещается под текст описания */
-	.hero2__grid {margin-bottom: -16rem;}
 	.hero2__wrapper.hidden {display: none;} /* hidden'ы прячем */
+	.hero2__grid {margin-bottom: -16rem;}
 	.hero2__project1 > p {margin-bottom: 300px;} /* это место под блок hero2__project2 */
 	.hero2__project1 .arrow {display:none;}
 	.hero2__project2 {
@@ -332,15 +334,10 @@
 
 @media (max-width: 375px) {
 	.main{}
-	ul.hero2__items {
-		display: none;
-	}
 
 	.hero2__project1 > p {
 		padding-bottom: 50px;
 	}
-	
-	
 
 	.conteiner__video {
 		background-color: #131313;
@@ -441,6 +438,5 @@
 		display: none;
 	}
 }
-
 
 
